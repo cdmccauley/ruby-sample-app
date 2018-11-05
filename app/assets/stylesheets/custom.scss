@@ -76,14 +76,19 @@ p {
 
 /* header */
 
-#logo {
+#logo-container {
   float: left;
-  margin-right: 10px;
+  color: $white;
   font-size: 1.7em;
+  padding-top: 9px;
+}
+
+#logo {
+  margin-right: 10px;
   color: $white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  
   font-weight: bold;
 
   #logo:hover {
